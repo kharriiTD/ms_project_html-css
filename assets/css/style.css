@@ -37,7 +37,7 @@ h2 {
 
 #hero-image {
     background: url('../css/images/veg1.png') no-repeat center center;
-    height: 600px;
+    height: 400px;
     background-size: 100%;
 
 }
@@ -66,4 +66,9 @@ h2 {
 
 .sidenav a:hover {
     color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    padding: 0px 0px;
 }
