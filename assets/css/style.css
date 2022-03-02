@@ -72,3 +72,17 @@ h2 {
     margin-left: 160px;
     padding: 0px 0px;
 }
+
+/* home content */
+
+#home-content,
+#home-content-two,
+#home-content-three {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#home-content p {
+    text-align: center;
+}
