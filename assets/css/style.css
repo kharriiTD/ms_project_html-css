@@ -122,7 +122,12 @@ footer {
 }
 
 table {
-    margin: 0 150px 0
+    width:100%;
+    margin: 0 150px 0;
+}
+th{
+    height: 70px;
+    color: #5f7738
 }
 
 /* club ethos */
