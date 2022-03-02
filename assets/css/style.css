@@ -21,3 +21,9 @@ h2 {
     letter-spacing: 3px;
     color: #5f7738
 }
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 20px;
+}
