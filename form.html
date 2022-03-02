@@ -40,99 +40,98 @@
     </section>
     <!--  form content -->
     <div>
-        <h2 class="sign-up">Sign up for our season vegatables</h2>
+        <h1 class="sign-up">Sign up for our season vegetables</h1>
     </div>
 
     <table>
         <tr>
             <th>Adress</th>
             <th>Contact Us</th>
-        </tr>    
+        </tr>
         <tr>
             <td>
-                
-                
-           
-                    
-                    Green Food Garden <br>
-                    Attarp 7010<br>
-                    28192 Hässleholm<br>
-                
+                Green Food Garden <br>
+                Attarp 7010<br>
+                28192 Hässleholm<br>
+                <h3>Opening Hours</h3>
+                Mon-Fri : 10:00 - 16:00<br>
+                Sat - Sun: 10:00 - 14:00
+
             </td>
-        <td>
-         <div class="signup-form">
-        <form action="action_page.php">
-            <div class="row">
-                <div class="col-25">
-                    <label for="fname">First Name</label>
+            <td>
+                <div class="signup-form">
+                    <form action="action_page.php">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">First Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Last Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="adress">Adress</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="adress" name="adress" placeholder="Your adress.." required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="size">Pick your vegatables basket size</label>
+                            </div>
+                            <div class="col-75">
+                                <label for="bsmall">Small</label>
+                                <input type="radio" id="bsmall" name="basket size" value="small" required>
+
+                                <label for="medium">Medium</label>
+                                <input type="radio" id="medium" name="basket size" value="medium">
+
+                                <label for="big">Big</label>
+                                <input type="radio" id="big" name="basket size" value="big">
+
+                            </div>
+                            <div class="row">
+                                <input type="submit" value="Sign up">
+                            </div>
+                        </div>
+
+                    </form>
+
                 </div>
-                <div class="col-75">
-                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                </div>
+            </td>
+            <!-- maps  -->
+        </tr>
+        <tr>
 
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="lname">Last Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-25">
-                    <label for="adress">Adress</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="adress" name="adress" placeholder="Your adress.." required>
-                </div>
-            </div>
+            <div id="googleMap" style="width:100%;height:400px;"></div>
 
-            <div class="row">
-                <div class="col-25">
-                    <label for="size">Pick your vegatables basket size</label>
-                </div>
-                <div class="col-75">
-                    <label for="bsmall">Small</label>
-                    <input type="radio" id="bsmall" name="basket size" value="small" required>
+            <script>
+                function myMap() {
+                    var mapProp = {
+                        center: new google.maps.LatLng(51.508742, -0.120850),
+                        zoom: 5,
+                    };
+                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                }
+            </script>
 
-                    <label for="medium">Medium</label>
-                    <input type="radio" id="medium" name="basket size" value="medium">
-
-                    <label for="big">Big</label>
-                    <input type="radio" id="big" name="basket size" value="big">
-
-                </div>
-                <div class="row">
-                    <input type="submit" value="Sign up">
-                </div>
-            </div>
-
-        </form>
-        <!-- maps  -->
-    </div>
-</td>
-
-</tr>
-<tr>
-    <h1>My First Google Map</h1>
-
-<div id="googleMap" style="width:100%;height:400px;"></div>
-
-<script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(51.508742,-0.120850),
-  zoom:5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-</tr>
-</table>
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+        </tr>
+    </table>
 
     <!-- social links -->
     <footer>

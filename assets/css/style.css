@@ -19,7 +19,8 @@ h2 {
     font-family: Toboto-serif, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #5f7738
+    color: #5f7738;
+
 }
 
 #logo {
@@ -122,12 +123,7 @@ footer {
 }
 
 table {
-    width:100%;
-    margin: 0 150px 0;
-}
-th{
-    height: 70px;
-    color: #5f7738
+    padding-left: 160px;
 }
 
 /* club ethos */
