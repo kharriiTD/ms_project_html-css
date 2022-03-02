@@ -116,64 +116,19 @@ footer {
 }
 
 .img-responsive {
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     padding: 40px 40px;
 }
 
-#veg {
-    text-align: center;
-    font-size: 35px;
-    margin-top: 20px;
-}
-
-/* form */
-
-.sign-up {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 10px;
-}
-
-input[type=text],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-form {
-    width: 50%;
-    margin-right: 30%;
-    margin-left: 30%;
-    padding: 20px;
-}
-
-label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-}
-
-input[type=submit] {
-    background-color: #2e302a;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-}
-
-.row:after {
-    content: "";
-    display: tables;
-    clear: both;
+table {
+    margin: 0 150px 0
 }
 
 /* club ethos */
 
 #club-ethos {
-    height: 600px;
+    height: 400px;
 }
 
 #left-about {
@@ -223,16 +178,18 @@ hr {
     text-align: right;
 }
 
+#veg,
 #welcome {
     text-align: center;
     margin: 20px 0;
-    font-size: 280%;
+    font-size: 180%;
 }
 
+/* veg content picture */
 #circle-container {
     width: 300px;
     height: 300px;
-    padding: 30px;
+    padding: 5px;
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
@@ -244,4 +201,48 @@ hr {
     background: url('../css/images/basket.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+/* form */
+
+.sign-up {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form {
+    height: 400px;
+    width: 50%;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 20px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #2e302a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.row:after {
+    content: "";
+    display: tables;
+    clear: both;
 }
