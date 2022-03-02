@@ -126,6 +126,7 @@ table {
     padding-left: 160px;
 }
 
+
 /* club ethos */
 
 #club-ethos {
@@ -163,6 +164,10 @@ hr {
     margin-bottom: 50px;
 }
 
+.left-about-heading p {
+    text-align: left;
+}
+
 .right-about-heading {
     width: 60%;
     float: left;
@@ -176,7 +181,7 @@ hr {
 }
 
 .right-about-heading p {
-    text-align: right;
+    text-align: left;
 }
 
 #veg,
