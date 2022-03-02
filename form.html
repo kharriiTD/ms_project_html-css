@@ -43,116 +43,87 @@
         <h1 class="sign-up">Sign up for our season vegetables</h1>
     </div>
 
-    <table>
-        <tr>
-            <th>Adress</th>
-            <th>Contact Us</th>
-        </tr>
-        <tr>
-            <td>
-                Green Food Garden <br>
-                Attarp 7010<br>
-                28192 Hässleholm<br>
-                <h3>Opening Hours</h3>
-                Mon-Fri : 10:00 - 16:00<br>
-                Sat - Sun: 10:00 - 14:00
+    <div class="signup-form">
+        <form action="action_page.php">
+            <div class="row">
+                <div>
+                    <label for="fname">First Name</label>
+                </div>
+                <div>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                </div>
 
-            </td>
-            <td>
-                <div class="signup-form">
-                    <form action="action_page.php">
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="fname">First Name</label>
-                            </div>
-                            <div class="col-75">
-                                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                            </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="lname">Last Name</label>
+                </div>
+                <div>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                </div>
+            </div>
 
-                        </div>
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="lname">Last Name</label>
-                            </div>
-                            <div class="col-75">
-                                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-                            </div>
-                        </div>
+            <div class="row">
+                <div>
+                    <label for="adress">Adress</label>
+                </div>
+                <div>
+                    <input type="text" id="adress" name="adress" placeholder="Your adress.." required>
+                </div>
+            </div>
 
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="adress">Adress</label>
-                            </div>
-                            <div class="col-75">
-                                <input type="text" id="adress" name="adress" placeholder="Your adress.." required>
-                            </div>
-                        </div>
+            <div class="row">
+                <div>
+                    <label for="size">Pick your vegatables basket size</label>
+                </div>
+                <div>
+                    <label for="bsmall">Small</label>
+                    <input type="radio" id="bsmall" name="basket size" value="small" required>
 
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="size">Pick your vegatables basket size</label>
-                            </div>
-                            <div class="col-75">
-                                <label for="bsmall">Small</label>
-                                <input type="radio" id="bsmall" name="basket size" value="small" required>
+                    <label for="medium">Medium</label>
+                    <input type="radio" id="medium" name="basket size" value="medium">
 
-                                <label for="medium">Medium</label>
-                                <input type="radio" id="medium" name="basket size" value="medium">
-
-                                <label for="big">Big</label>
-                                <input type="radio" id="big" name="basket size" value="big">
-
-                            </div>
-                            <div class="row">
-                                <input type="submit" value="Sign up">
-                            </div>
-                        </div>
-
-                    </form>
+                    <label for="big">Big</label>
+                    <input type="radio" id="big" name="basket size" value="big">
 
                 </div>
-            </td>
-            <!-- maps  -->
-        </tr>
-        <tr>
+                <div class="row">
+                    <input type="submit" value="Sign up">
+                </div>
+            </div>
+
+        </form>
+
+        <!-- adress -->
+        <address>
+            Come and visist us:<br>
+            Green Food Garde<br>
+            Attarp 7010<br>
+            281 92 Hässleholm
+        </address>
 
 
-            <div id="googleMap" style="width:100%;height:400px;"></div>
 
-            <script>
-                function myMap() {
-                    var mapProp = {
-                        center: new google.maps.LatLng(51.508742, -0.120850),
-                        zoom: 5,
-                    };
-                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-                }
-            </script>
+        <!-- social links -->
+        <footer>
+            <ul class="social-networks">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
 
-            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-        </tr>
-    </table>
-
-    <!-- social links -->
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
-
-    <!--  font awesome script -->
-    <script src="https://kit.fontawesome.com/7e6a95a094.js" crossorigin="anonymous"></script>
+        <!--  font awesome script -->
+        <script src="https://kit.fontawesome.com/7e6a95a094.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
