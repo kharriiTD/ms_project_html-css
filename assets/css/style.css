@@ -150,3 +150,16 @@ form {
     margin-left: 30%;
     padding: 20px;
 }
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #2e302a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
