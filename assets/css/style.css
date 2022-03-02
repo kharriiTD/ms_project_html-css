@@ -27,3 +27,16 @@ h2 {
     font-size: 280%;
     margin-left: 20px;
 }
+
+/* Hero image */
+#hero-outer {
+    height: 400px;
+    width: 100%;
+}
+
+#hero-image {
+    background: url('../css/images/veg1.png') no-repeat center center;
+    height: 600px;
+    background-size: 100%;
+
+}
