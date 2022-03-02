@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Serif:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: open-sansa, sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+/* heading and logo */
+
+h1,
+h2 {
+    font-family: Toboto-serif, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #5f7738
+}
