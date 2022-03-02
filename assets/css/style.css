@@ -126,3 +126,27 @@ footer {
     font-size: 35px;
     margin-top: 20px;
 }
+
+/* form */
+
+.sign-up {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form {
+    width: 50%;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 20px;
+}
