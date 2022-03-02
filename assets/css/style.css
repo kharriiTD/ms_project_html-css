@@ -108,3 +108,17 @@ footer {
     padding: 5%;
     color: #5f7738
 }
+
+/* gallery for product */
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-responsive {
+    width: 200px;
+    height: 200px;
+    padding: 40px 40px;
+}
+
+#pruduct-list {}
