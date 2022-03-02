@@ -26,6 +26,7 @@ h2 {
     float: left;
     font-size: 280%;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 /* Hero image */
@@ -51,7 +52,7 @@ h2 {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #5f7777;
+    background-color: #d4d7af;
     overflow: hidden;
     padding-top: 20px;
 }
@@ -85,4 +86,25 @@ h2 {
 
 #home-content p {
     text-align: center;
+}
+
+/* footer social media */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 30px;
+    margin: 1%;
+    padding: 5%;
+    color: #5f7738
 }
