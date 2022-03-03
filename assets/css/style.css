@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Serif:wght@300&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
 
 body {
     font-family: open-sansa, sans-serif;
@@ -303,7 +305,9 @@ input[type=submit]:hover {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #home-content {
+
+    #home-content,
+    #product {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -343,6 +347,6 @@ input[type=submit]:hover {
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
     #photo {
-        column-count: 2;
+        column-count: 3;
     }
 }
