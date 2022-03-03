@@ -219,7 +219,7 @@ hr {
 }
 
 .form-left-heading {
-    width: 60%;
+    width: 40%;
     float: right;
     line-height: 40px;
     clear: both;
@@ -239,13 +239,6 @@ hr {
     text-align: left;
 }
 
-.form-two-heading h2 {
-    text-align: right;
-}
-
-.form-two-heading p {
-    text-align: left;
-}
 
 
 
@@ -253,7 +246,7 @@ hr {
 input[type=text],
 select,
 textarea {
-    width: 50%;
+    width: 30%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -283,8 +276,24 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+}
+
 /* map */
 
-#maps {
-    height: 400px;
+#map {
+    width: 70%;
+    float: right;
+    line-height: 40px;
+    clear: both;
+    margin-bottom: 20px;
 }
