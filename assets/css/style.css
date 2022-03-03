@@ -77,9 +77,9 @@ h2 {
 
 /* home content */
 
-#home-content,
-#home-content-two,
-#home-content-three {
+#home,
+#home-two,
+#home-three {
     padding: 20px;
     width: 100%;
     text-align: center;
@@ -110,26 +110,11 @@ footer {
     color: #5f7738
 }
 
-/* gallery for product */
-
-.img-circle {
-    border-radius: 50%;
-}
-
-.img-responsive {
-    width: 175px;
-    height: 175px;
-    padding: 40px 40px;
-}
-
-table {
-    padding-left: 160px;
-}
 
 
-/* club ethos */
+/* Product section */
 
-#club-ethos {
+#product {
     height: 400px;
 }
 
@@ -191,7 +176,23 @@ hr {
     font-size: 180%;
 }
 
-/* veg content picture */
+/* img gallery */
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-responsive {
+    width: 175px;
+    height: 175px;
+    padding: 40px 40px;
+}
+
+table {
+    padding-left: 160px;
+}
+
+/* img center */
 
 #circle-container {
     width: 300px;
