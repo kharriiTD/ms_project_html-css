@@ -201,9 +201,10 @@ table {
 }
 
 #circle-cover-bg {
-    background: url('../css/images/basket.jpeg') no-repeat center center;
+    background: url('../css/images/vag\ basket.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+
 }
 
 /* form */
@@ -287,7 +288,7 @@ input[type=submit]:hover {
 /* map */
 
 #map {
-    width: 70%;
+    width: 100%;
     float: right;
     line-height: 40px;
     clear: both;
