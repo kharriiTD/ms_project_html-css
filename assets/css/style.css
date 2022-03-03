@@ -30,17 +30,12 @@ h2 {
     margin-top: 10px;
 }
 
-/* Hero image */
-#hero-outer {
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
-}
-
 #hero-image {
     background: url('../css/images/veg1.png') no-repeat center center;
     height: 400px;
     background-size: 100%;
+    width: 100%;
+    overflow: hidden;
 
 }
 
