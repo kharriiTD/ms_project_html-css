@@ -26,8 +26,8 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 20px;
-    margin-top: 10px;
+    margin-left: 30px;
+
 }
 
 #hero-image {
@@ -256,7 +256,6 @@ textarea {
 }
 
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: #3a3a3a;
     color: white;
@@ -298,4 +297,45 @@ input[type=submit]:hover {
     line-height: 40px;
     clear: both;
     margin-bottom: 20px;
+}
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
 }
