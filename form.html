@@ -39,31 +39,31 @@
         <div id="hero-image"></div>
     </section>
     <!--  form content -->
-    <section id="club-ethos">
+    <section id="form-section">
         <h2 id="welcome">Welcome</h2>
-        <div id="left-about">
-            <div class="left-about-heading">
-                <h2>Open time </h2>
-                <hr>
+        <div id="form-left">
+            <div class="form-left-heading">
+                <h3>Open time </h3>
+
                 <p>
                     Mon - Fri 10:00 - 18:00
                 </p>
 
             </div>
-            <div class="left-about-heading">
-                <h2> Adress </h2>
-                <hr>
+            <div class="form-left-heading">
+                <h3> Adress </h3>
+
                 <p>
                     <address>
-                        Green Food Garden
-                        Attarp 7010
-                        281 92 Hässlehol
+                        Green Food Garden <br>
+                        Attarp 7010 <br>
+                        281 92 Hässleholm
                     </address>
                 </p>
             </div>
         </div>
-        <div id="right-about">
-            <div class="right-about-heading">
+        <div id="form-section-two">
+            <div class="form-two-heading">
                 <form action="action_page.php">
                     <div class="row">
                         <div>
@@ -94,12 +94,10 @@
 
                     <div class="row">
                         <div>
-                            <label for="Email">
-                                <Address>Email</Address>
-                            </label>
+                            <label for="Email">Email</label>
                         </div>
                         <div>
-                            <input type="email" id="email" name="ad" placeholder="Your last email.." required>
+                            <input type="email" id="email" name="email" placeholder="Your last email.." required>
                         </div>
                     </div>
 
@@ -113,19 +111,25 @@
                             <option value="medium-size">Medium 125kr</option>
                             <option value="big-size">Big 150kr</option>
                         </select>
+
                         <div class="row">
-                            <input type="submit" value="Sign up">
+                            <div class="col-25">
+                                <label for="subject">Write your season vegatables here</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Write yor choose here and add more vegatables" style="height:200px"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <input type="submit" value="Sign up and order">
                         </div>
                     </div>
 
             </div>
 
         </div>
-        <div id="center-about">
-            <div id="circle-container">
-                <div id="circle-cover-bg"></div>
-            </div>
-        </div>
+
     </section>
 
 
