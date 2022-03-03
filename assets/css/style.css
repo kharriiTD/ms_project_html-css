@@ -207,15 +207,15 @@ table {
 
 }
 
-/* form */
+/* time */
 
-#form-left {
+#time-left {
     padding-top: 30px;
     width: 45%;
     float: left;
 }
 
-.form-left-heading {
+.time-left-heading {
     width: 40%;
     float: right;
     line-height: 40px;
@@ -224,7 +224,7 @@ table {
 }
 
 
-.form-left-heading {
+.time-left-heading {
     width: 60%;
     float: right;
     line-height: 20px;
@@ -232,23 +232,23 @@ table {
     margin-bottom: 50px;
 }
 
-.form-left-heading p {
+.time-left-heading p {
     text-align: left;
 }
 
 
+/* form section  */
 
 
-/* Style inputs with type="text", select elements and textareas */
 input[type=text],
 select,
 textarea {
     width: 30%;
-    padding: 12px;
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     resize: vertical
 }
 
