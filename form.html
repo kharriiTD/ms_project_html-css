@@ -39,98 +39,75 @@
         <div id="hero-image"></div>
     </section>
     <!--  form content -->
-    <div>
-        <h1 class="sign-up">Sign up for our season vegetables</h1>
-    </div>
+    <section>
+        <h2></h2>
+        <div id="left-about">
+            <div class="left-about-heading">
+                <h2>
+                    Welcome to:
+                </h2>
+                <hr>
+                <p>
+                    <address>
+                        Green Food Garden
+                        Attarp 7010
+                        281 92 Hässleholm</address>
 
-    <div class="signup-form">
-        <form action="action_page.php">
-            <div class="row">
-                <div>
-                    <label for="fname">First Name</label>
+                </p>
+                <div class="form-section">
+                    <form action="action_page.php">
+
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
                 </div>
-                <div>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                </div>
+    </section>
 
-            </div>
-            <div class="row">
-                <div>
-                    <label for="lname">Last Name</label>
-                </div>
-                <div>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-                </div>
-            </div>
-
-            <div class="row">
-                <div>
-                    <label for="adress">Adress</label>
-                </div>
-                <div>
-                    <input type="text" id="adress" name="adress" placeholder="Your adress.." required>
-                </div>
-            </div>
-
-            <div class="row">
-                <div>
-                    <label for="size">Pick your vegatables basket size</label>
-                </div>
-                <div>
-                    <label for="bsmall">Small</label>
-                    <input type="radio" id="bsmall" name="basket size" value="small" required>
-
-                    <label for="medium">Medium</label>
-                    <input type="radio" id="medium" name="basket size" value="medium">
-
-                    <label for="big">Big</label>
-                    <input type="radio" id="big" name="basket size" value="big">
-
-                </div>
-                <div class="row">
-                    <input type="submit" value="Sign up">
-                </div>
-            </div>
-
-        </form>
-
-        <!-- adress -->
-        <address>
-            Come and visist us:<br>
-            Green Food Garde<br>
-            Attarp 7010<br>
-            281 92 Hässleholm
-        </address>
-
-        <!--  Map -->
+    <!--  Map -->
 
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1095.2226047949114!2d13.82852025933223!3d56.14521889783353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653fe0279c4e739%3A0x1562c8dce5b767b9!2sIGNABERGA-TROEDSTORP%207010%2C%20281%2092%20H%C3%A4ssleholm!5e1!3m2!1sen!2sse!4v1646261854886!5m2!1sen!2sse" width="50%" height="40%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1095.2226047949114!2d13.82852025933223!3d56.14521889783353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653fe0279c4e739%3A0x1562c8dce5b767b9!2sIGNABERGA-TROEDSTORP%207010%2C%20281%2092%20H%C3%A4ssleholm!5e1!3m2!1sen!2sse!4v1646261854886!5m2!1sen!2sse" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
 
 
-        <!-- social links -->
-        <footer>
-            <ul class="social-networks">
-                <li>
-                    <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-                </li>
-            </ul>
-        </footer>
+    <!-- social links -->
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
 
 
-        <!--  font awesome script -->
+    <!--  font awesome script -->
 
-
-        <script src="https://kit.fontawesome.com/7e6a95a094.js" crossorigin="anonymous"></script>
+    <p>This website is only for educational purposes</p>
+    <script src="https://kit.fontawesome.com/7e6a95a094.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

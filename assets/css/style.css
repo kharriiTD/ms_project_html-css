@@ -252,3 +252,9 @@ input[type=submit] {
     display: tables;
     clear: both;
 }
+
+/* map */
+
+#maps {
+    height: 400px;
+}
