@@ -303,7 +303,7 @@ input[type=submit]:hover {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #club-ethos {
+    #home-content {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -337,5 +337,12 @@ input[type=submit]:hover {
 
     hr {
         display: none;
+    }
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    #photo {
+        column-count: 2;
     }
 }
