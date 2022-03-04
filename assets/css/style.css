@@ -23,6 +23,14 @@ h2 {
 
 }
 
+h3 {
+    font-family: Toboto-serif, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #5f7738;
+
+}
+
 #logo {
     float: left;
     font-size: 280%;
