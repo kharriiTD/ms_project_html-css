@@ -12,9 +12,9 @@
  # 1. About
 
  Green Food Garden are a local company that grow organic vegetables without any chemical fertilizers, pesticides or insecticides.
-Our goal is to give our coustomers the best fresh quility as posssible and deliver to there home weekly.
+Our goal is to give our coustomers the best fresh quility as posssible and deliver to their home weekly.
 
-Green Food Garden doesnt excist in real life this is just a idea for my Milestone project 1 for the full stack web development course at code institute. All truogh the greenhouse does excist and its my family farm and we only grew cucumbers. 
+Green Food Garden doesnt excist in real life this is just a idea for my Milestone project 1 for the full stack web development course at code institute. All trough the greenhouse does excist and its my family farm and we only grew cucumbers. 
 
 [Live project website can be accesed here.](https://kharriitd.github.io/ms_project_html-css/)
 
@@ -29,7 +29,26 @@ As a use i want to know what i get in the basket
 
  ## 2.2 Wireframes
 
- sätter in imorgon
+ sätter in imorgon.
+
+ ## 2.3 Structure
+ Three different pages with home, product and contact.
+ The structure should be easy to understand and navigate. 
+ There are a navbar, hero image on the top of the header for each page and a footer with social media.
+
+  ### Home page
+ - Have information about the company. 
+ 
+ ### Product page 
+ 
+ - Product page shows season vegetables gallery and information about the vegetables basket and a information.
+
+### Contact page
+
+- Shows the opening hours and adress and a contact form there costumers can choose the vegatables basket. In the end it content a map. 
+
+
+
 
 ## Existing Features
 
@@ -43,13 +62,17 @@ As a use i want to know what i get in the basket
 
 ## Home content
 
-  - The home content show company information and what there goals are. Also show that the coustomers can pick basket and harvest vegetables. 
+  - The home content shows the company information and what their goals are. Thay they can order vegetables to their home or harvest the own vegetables.
 
 
 ![alt text](assets/css/images/home-content.png)
 
-## Footer
-Footer have links to social media. Each link i
+  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
+  
+  - The footer is valuable to the user as it encourages them to keep connected via social media
+
+
+![alt text](assets/css/images/footer.png)
 
 
 
