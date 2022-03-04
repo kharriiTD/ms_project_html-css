@@ -25,25 +25,26 @@ Green Food Garden doesnt excist in real life this is just a idea for my Mileston
 - As a use I want to know if i can cancel the order.
 - As a use i want to know what i get in the vegetables basket.
 
- ## 2.2 Wireframes
+ ## Wireframes
 
  sätter in imorgon.
 
- ## 2.3 Structure
- Three different pages with home, product and contact.
+ ## Structure
+ Three different pages with home, product and sign up.
  The structure should be easy to understand and navigate. 
  There are a navbar, hero image on the top of the header for each page and a footer with social media.
 
-  ### Home page
- - Have information about the company. 
- 
- ### Product page 
- 
- - Product page shows season vegetables gallery and information about the vegetables basket and a information.
+ # Design Choices
 
-### Contact page
+- ## Typography
+I chose one that was most readable in my opinion. 
+Toboto-serif for the headlines
+Open-sansa for body text structure and sans-serif as a alternativ just in case thoose others fails.
 
-- Shows the opening hours and adress and a contact form there costumers can choose the vegatables basket. In the end it content a map. 
+- ## Colour Scheme
+
+
+
 
 
 
@@ -60,13 +61,14 @@ Green Food Garden doesnt excist in real life this is just a idea for my Mileston
 
 ## Home content
 
-  - The home content shows the company information, their goals and times to harvest the own vegetables and delivery offers. 
+  - The home content shows the company information, their goals and times to harvest their own vegetables and delivery offers. 
 
 
 ![alt text](assets/css/images/home-content.png)
+
 ## The footer
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
+  - The footer section includes links to the relevant social media sites for Green Food Garden. The links will open to a new tab to allow easy navigation for the user.
   
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
@@ -75,8 +77,7 @@ Green Food Garden doesnt excist in real life this is just a idea for my Mileston
 
 ## Product page 
   
-  - Will allow users to see all the season vegetables are. 
-This section is valuable to the user as they can see each basket have to offer and price. 
+  - This section is valuable to the user as they can see each basket have to offer and price. 
 
 - Gallery will allow users to see all the season vegetables.
 
@@ -84,12 +85,19 @@ This section is valuable to the user as they can see each basket have to offer a
 
 ## The Sign Up Page
 
- - This page will allow the user to get signed upfor there weekly vegetables basket. The user will be able specify if they want smal, medium or big basket. The user will be asked to submit their full name and email address. They will be able to write what they want for season vegetables.
+ - This page will allow the user to get signed up for there weekly vegetables basket. The user will be able specify if they want smal, medium or big basket. The user will be asked to submit their full name and email address. They will be able to write what they want for season vegetables.
 
- - In this page the users can find opening hours, adress and also a map. 
+ - In this page the user can find opening hours, adress and also a map. 
 
 
-![alt text](assets/css/images/product-section.png)
+
+
+![alt text](assets/css/images/Form-section.png)
+
+# Features Left to Implement
+ - I would like to add name under each image on product gallery page.
+ - Add a new page with delivery and order information. 
+
 
 # Technologies Used
 - HTML5 - provides the content and structure for the website.
@@ -97,29 +105,16 @@ This section is valuable to the user as they can see each basket have to offer a
 - Balsamiq - used to create the wireframes.
 - Gitpod - used to deploy the website.
 - Github - used to host and edit the website.
+- Font Awesome - Use to import social media links.
 
 
 
 
 
-
-**I start here**
-
-Choose heading color #5f7738 and text color black. 
-i use some code  to make social link from love runnig projekt
-color nav #d4d7af
-reference:
-picture and insperation from 
-http://www.odlarlaget.se/sv/produkter/maanader/mars
-bild veg basket
-https://www.google.com/imgres?imgurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2Fjinga%2Fjinga1306%2Fjinga130600040%2F20337318-verdure-fresche-in-cestino-isolato-su-bianco.jpg&imgrefurl=https%3A%2F%2Fwww.123rf.com%2Fphoto_20337318_fresh-vegetables-in-basket-isolated-on-white.html&tbnid=UsiTB5dEEiZFrM&vet=12ahUKEwjUlOTfgKj2AhUhgv0HHcSBC-MQMygCegUIARCtAg..i&docid=JqTCOjO-Ch7cPM&w=1300&h=866&q=vegetables%20basket&ved=2ahUKEwjUlOTfgKj2AhUhgv0HHcSBC-MQMygCegUIARCtAg
 
 ## Validator Testing
 ![alt text](assets/css/images/css-val.png)
 
-http://jigsaw.w3.org/css-validator/check/referer (HTML / XML documents only)
-
-https://www.organicbasketbarcelona.com/en
 
  # 8. Deployment 
 
@@ -136,15 +131,16 @@ To code institue for header and footer i use on love running project.
 
 I got help from Tutor Assistance with my contact form 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+
 # Content 
-I toke a few part from the content from 
+I toke a few part of the content from 
 https://www.organicbasketbarcelona.com/en
 
 
 The rest of content was written by me. 
 
 # Media
+
 
 The images used for the gallery page were taken from this 
 http://www.odlarlaget.se/sv/produkter/maanader/mars
@@ -153,3 +149,9 @@ https://www.google.com/imgres?imgurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2
 
 
 
+**I start here**
+
+Choose heading color #5f7738 and text color black. 
+i use some code  to make social link from love runnig projekt
+color nav #d4d7af
+reference:
