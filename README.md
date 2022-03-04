@@ -41,9 +41,10 @@ I chose one that was most readable in my opinion.
 Toboto-serif for the headlines
 Open-sansa for body text structure and sans-serif as a alternativ just in case thoose others fails.
 
-- ## Colour Scheme
+- ## Color Scheme
 
 
+![alt text](assets/css/images/color.png)
 
 
 
