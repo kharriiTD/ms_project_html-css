@@ -42,7 +42,7 @@ Toboto-serif for the headlines
 Open-sansa for body text structure and sans-serif as a alternativ just in case thoose others fails.
 
 - ## Color Scheme
-
+The color I use to this project. 
 
 ![alt text](assets/css/images/color.png)
 
@@ -107,10 +107,11 @@ Open-sansa for body text structure and sans-serif as a alternativ just in case t
 - Gitpod - used to deploy the website.
 - Github - used to host and edit the website.
 - Font Awesome - Use to import social media links.
-
-
-
-
+- colors.co - used to color scheme.
+- Am I responsive? - used to check responsivity of code and display the mock up in the documentation.
+- W3C Markup Validation Service - used to validate HTML codes.
+- W3C CSS Validation service - used to validate CSS codes.
+- Chrome Devtools - used throughout the project to inspect on elements and writing codes.
 
 
 ## Validator Testing
