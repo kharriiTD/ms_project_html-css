@@ -133,7 +133,7 @@ Light House
 
 # 7. Troubleshooting
 
-- Have alot problem with media Media queries and i only have the time to fix the logo, menu and hero image before I need to submit
+- Have alot problem with media Media queries and I only have the time to fix the logo, menu and hero image before I need to submit my project.
 
 First i had my menu to the side but men mentor didnt think that look good so i move it up to the header instead. I have alot of problem with the position for everything and i try to google it and find https://www.w3schools.com/ very helpfull. But it was first when Tutor Assistance help me with the form that I really understod it. 
 

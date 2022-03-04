@@ -9,7 +9,7 @@
 body {
     font-family: open-sansa, sans-serif;
     font-weight: 300;
-    color: rgb(12, 8, 8);
+    color: black;
 }
 
 /* heading and logo */
@@ -19,14 +19,6 @@ h2 {
     font-family: Toboto-serif, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #5f7738;
-
-}
-
-h3 {
-    font-family: Toboto-serif, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     color: #5f7738;
 
 }
@@ -110,7 +102,7 @@ footer {
     font-size: 30px;
     margin: 1%;
     padding: 5%;
-    color: #14160f
+    color: #5f7738
 }
 
 
@@ -284,86 +276,25 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-/* Media queries */
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
 
-/* For larger to medium screens size from 1200px wide and down */
-
-@media screen and (max-width: 1200px) {
-    #logo {
-        font-size: 300%;
-        margin-left: 20px;
-        margin-top: 2%;
-        margin-bottom:
-    }
-
-    #hero-image {
-
-        height: 300px;
-        background-size: 100%;
+    .col-25,
+    .col-75,
+    input[type=submit] {
         width: 100%;
-        overflow: hidden;
-
-
-
-        #welcome {
-            padding: 30px 0;
-            margin: 0;
-        }
-
-        #left-about,
-        #right-about {
-            width: 100%;
-            float: left;
-            padding: 0;
-        }
-
-        #center-about {
-            clear: both;
-            width: 100%;
-            float: left;
-            padding: 0;
-        }
-
-        hr {
-            display: none;
-        }
-
-        #photo {
-
-            float: left;
-            width: 25%;
-
-        }
+        margin-top: 0;
     }
 
-    /* For medium screen sizes from 950px wide and down */
+}
 
-    @media screen and (max-width: 950px) {
-        #logo {
-            font-size: 200%;
-            margin-left: px;
-            margin-top: 2px;
-        }
+/* map */
 
-        #hero-image {
-            height: 200px;
-            background-size: 100%;
-            width: 100%;
-            overflow: hidden;
-
-        }
-
-        /* For medium screen sizes from 800 px wide and down */
-
-        @media screen and (max-width: 800px) {
-            #logo {
-                font-size: 250%;
-                margin-left: 20px;
-                margin-bottom: -10px;
-            }
-
-            #hero-image {
-                height: 180px;
-                background-size: 100%;
-                width: 100%;
-                overflow: hidden;
+#map {
+    width: 100%;
+    height: 150%;
+    float: right;
+    line-height: 40px;
+    clear: both;
+    margin-bottom: 20px;
+}
