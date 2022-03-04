@@ -73,6 +73,13 @@ Green Food Garden doesnt excist in real life this is just a idea for my Mileston
 
 ![alt text](assets/css/images/footer.png)
 
+## Product page 
+   - Section with information about the basket and what includes.
+
+   - Section two have a gallery content for season vegetables. 
+
+![alt text](assets/css/images/product-section.png)
+
 # Technologies Used
 - HTML5 - provides the content and structure for the website.
 - CSS - provides the styling.
@@ -80,10 +87,6 @@ Green Food Garden doesnt excist in real life this is just a idea for my Mileston
 - Gitpod - used to deploy the website.
 - Github - used to host and edit the website.
 
-## Product page 
-   - Section with information about the basket and what includes.
-
-   - Section two have a gallery content the season vegetables. 
 
 
 
