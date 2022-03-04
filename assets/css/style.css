@@ -17,10 +17,11 @@ body {
 /* heading and logo */
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: Toboto-serif, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #5f7738;
 
 }
@@ -73,7 +74,6 @@ h2 {
 }
 
 /* home content */
-
 #home,
 #home-two,
 #home-three {
@@ -84,269 +84,270 @@ h2 {
 
 #home-content p {
     text-align: center;
-}
-
-/* footer social media */
-
-footer {
-    height: 150px;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 30px;
-    margin: 1%;
-    padding: 5%;
-    color: #5f7738
-}
 
 
 
-/* Product section */
+    /* footer social media */
 
-#product {
-    height: 400px;
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.left-about-heading p {
-    text-align: left;
-}
-
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-}
-
-.right-about-heading p {
-    text-align: left;
-}
-
-#veg,
-#welcome {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 180%;
-}
-
-/* img gallery */
-
-.img-circle {
-    border-radius: 50%;
-}
-
-.img-responsive {
-    width: 175px;
-    height: 175px;
-    padding: 40px 40px;
-}
-
-table {
-    padding-left: 160px;
-}
-
-/* img center */
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 5px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
-    background: url('../css/images/vag\ basket.jpeg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-
-}
-
-/* time */
-
-#time-left {
-    padding-top: 30px;
-    width: 45%;
-    float: left;
-}
-
-.time-left-heading {
-    width: 40%;
-    float: right;
-    line-height: 40px;
-    clear: both;
-    margin-bottom: 20px;
-}
-
-
-.time-left-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.time-left-heading p {
-    text-align: left;
-}
-
-
-/* form section  */
-#form-section {
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
-
-input[type=text],
-select,
-textarea {
-    width: 30%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    resize: vertical
-}
-
-
-input[type=submit] {
-    background-color: #3a3a3a;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 45%;
-}
-
-input[type=submit]:hover {
-    background-color: #3a3a3a;
-}
-
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-
-    .col-25,
-    .col-75,
-    input[type=submit] {
-        width: 100%;
-        margin-top: 0;
+    footer {
+        height: 150px;
     }
 
-}
+    .social-networks {
+        text-align: center;
+    }
 
-/* map */
+    .social-networks>li {
+        display: inline;
+    }
 
-#map {
-    width: 100%;
-    height: 150%;
-    float: right;
-    line-height: 40px;
-    clear: both;
-    margin-bottom: 20px;
-}
+    .social-networks i {
+        font-size: 30px;
+        margin: 1%;
+        padding: 5%;
+        color: #5f7738
+    }
 
-/* Media queries */
 
-/* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {
 
-    #home-content,
+    /* Product section */
+
     #product {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+        height: 400px;
     }
 
-    #welcome {
-        padding: 30px 0;
-        margin-top: 0;
-    }
-
-    #left-about,
-    #right-about {
-        width: 100%;
+    #left-about {
+        padding-top: 30px;
+        width: 33%;
         float: left;
-        padding: 0;
+    }
+
+    #right-about {
+        padding-top: 30px;
+        width: 33%;
+        float: right;
     }
 
     #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
+        width: 33%;
+        margin: 0 auto;
     }
 
     hr {
-        display: none;
+        border-top: 1px solid #3a3a3a;
+        width: 100%;
+        margin: 5px 0;
     }
-}
 
-/* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px) {
-    #photo {
-        column-count: 3;
+    .left-about-heading {
+        width: 60%;
+        float: right;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
     }
-}
+
+    .left-about-heading p {
+        text-align: left;
+    }
+
+    .right-about-heading {
+        width: 60%;
+        float: left;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+    }
+
+    .right-about-heading h2 {
+        text-align: right;
+    }
+
+    .right-about-heading p {
+        text-align: left;
+    }
+
+    #veg,
+    #welcome {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 180%;
+    }
+
+    /* img gallery */
+
+    .img-circle {
+        border-radius: 50%;
+    }
+
+    .img-responsive {
+        width: 175px;
+        height: 175px;
+        padding: 40px 40px;
+    }
+
+    table {
+        padding-left: 160px;
+    }
+
+    /* img center */
+
+    #circle-container {
+        width: 300px;
+        height: 300px;
+        padding: 5px;
+        border-style: solid;
+        border-color: #ccc;
+        border-width: 1px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    #circle-cover-bg {
+        background: url('../css/images/vag\ basket.jpeg') no-repeat center center;
+        height: 100%;
+        border-radius: 50%;
+
+    }
+
+    /* time */
+
+    #time-left {
+        padding-top: 30px;
+        width: 45%;
+        float: left;
+    }
+
+    .time-left-heading {
+        width: 40%;
+        float: right;
+        line-height: 40px;
+        clear: both;
+        margin-bottom: 20px;
+    }
+
+
+    .time-left-heading {
+        width: 60%;
+        float: right;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+    }
+
+    .time-left-heading p {
+        text-align: left;
+    }
+
+
+    /* form section  */
+    #form-section {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        width: 30%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        resize: vertical
+    }
+
+
+    input[type=submit] {
+        background-color: #3a3a3a;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 45%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #3a3a3a;
+    }
+
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+
+        .col-25,
+        .col-75,
+        input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+        }
+
+    }
+
+    /* map */
+
+    #map {
+        width: 100%;
+        height: 150%;
+        float: right;
+        line-height: 40px;
+        clear: both;
+        margin-bottom: 20px;
+    }
+
+    /* Media queries */
+
+    /* For large to medium screens sizes from 1200px wide and down */
+    @media screen and (max-width: 1200px) {
+
+        #home-content,
+        #product {
+            width: 65%;
+            height: 1200px;
+            margin: 0 auto;
+        }
+
+        #welcome {
+            padding: 30px 0;
+            margin-top: 0;
+        }
+
+        #left-about,
+        #right-about {
+            width: 100%;
+            float: left;
+            padding: 0;
+        }
+
+        #center-about {
+            clear: both;
+            width: 100%;
+            float: left;
+            padding: 0;
+        }
+
+        #times div {
+            width: 100%;
+            clear: both;
+            height: 150px;
+            padding: 0;
+        }
+
+        hr {
+            display: none;
+        }
+    }
+
+    /* For small screens sizes from 800px wide and down */
+    @media screen and (max-width: 800px) {
+        #photo {
+            column-count: 3;
+        }
+    }
