@@ -138,16 +138,14 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 # Credits
-To code institue for header and footer i use on love running project. 
-
-I got help from Tutor Assistance with my contact form 
+I got help from Tutor Assistance with my contact form.
+I got alot of help from https://www.w3schools.com/
 
 
 # Content 
-I toke a few part of the content from 
+I toke a few lines of text from 
 https://www.organicbasketbarcelona.com/en
-
-
+Navbar and footer codes was taken from "Love Runing project"
 The rest of content was written by me. 
 
 # Media
@@ -157,12 +155,3 @@ The images used for the gallery page were taken from this
 http://www.odlarlaget.se/sv/produkter/maanader/mars
 
 https://www.google.com/imgres?imgurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2Fjinga%2Fjinga1306%2Fjinga130600040%2F20337318-verdure-fresche-in-cestino-isolato-su-bianco.jpg&imgrefurl=https%3A%2F%2Fwww.123rf.com%2Fphoto_20337318_fresh-vegetables-in-basket-isolated-on-white.html&tbnid=UsiTB5dEEiZFrM&vet=12ahUKEwjUlOTfgKj2AhUhgv0HHcSBC-MQMygCegUIARCtAg..i&docid=JqTCOjO-Ch7cPM&w=1300&h=866&q=vegetables%20basket&ved=2ahUKEwjUlOTfgKj2AhUhgv0HHcSBC-MQMygCegUIARCtAg
-
-
-
-**I start here**
-
-Choose heading color #5f7738 and text color black. 
-i use some code  to make social link from love runnig projekt
-color nav #d4d7af
-reference:
