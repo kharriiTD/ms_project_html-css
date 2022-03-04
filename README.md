@@ -184,9 +184,10 @@ How i can writ my readme fil from
 # Content 
 I toke a few lines of text from 
 https://www.organicbasketbarcelona.com/en
+codes was taken from "Love Runing project" for navbar, footer and the image from product page.
 
-Navbar and footer codes was taken from "Love Runing project"
-
+I toke a pieces of kod for my form section.
+https://www.w3schools.com/
 
 The rest of content was written by me. 
 
