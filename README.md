@@ -32,7 +32,7 @@ Green Food Garden doesnt excist in real life this is just a idea for my Mileston
 
  ## Wireframes
 
- sätter in imorgon.
+
 
  ## Structure
  Three different pages with home, product and sign up.
@@ -168,6 +168,10 @@ I got alot of help from https://www.w3schools.com/
 
 
 To Andy Bui for helping me out with the map. 
+
+Lina Dam help me with media media queries 
+
+
 For my readme.dm https://www.youtube.com/watch?v=yXY3f9jw7fg
 How i can writ my readme fil from
 
@@ -196,9 +200,15 @@ http://www.odlarlaget.se/sv/produkter/maanader/mars
 
 https://www.google.com/imgres?imgurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2Fjinga%2Fjinga1306%2Fjinga130600040%2F20337318-verdure-fresche-in-cestino-isolato-su-bianco.jpg&imgrefurl=https%3A%2F%2Fwww.123rf.com%2Fphoto_20337318_fresh-vegetables-in-basket-isolated-on-white.html&tbnid=UsiTB5dEEiZFrM&vet=12ahUKEwjUlOTfgKj2AhUhgv0HHcSBC-MQMygCegUIARCtAg..i&docid=JqTCOjO-Ch7cPM&w=1300&h=866&q=vegetables%20basket&ved=2ahUKEwjUlOTfgKj2AhUhgv0HHcSBC-MQMygCegUIARCtAg
 
-#Acknowledgements
+
+
+# 
+
+Acknowledgements
 
 The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute.
+
+
 I will like to thank 
 - the tutor support team for the rapid respond each time when I submit a question. 
 - my sister Lina for helping out and gave me the support.
