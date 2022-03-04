@@ -5,6 +5,9 @@
 4. Features
 5. Technologies Used
 6. Testing
+7. Troubleshooting
+8. Debugging
+9. Deployment 
 
 
  # 1. About
@@ -123,11 +126,12 @@ The color I use to this project.
 Responsiv testing 
 
 
+# 7. Troubleshooting
+# 8. Debugging
 
 
 
-
- # 8. Deployment 
+ # 9. Deployment 
 
 ## To deploy the project
 
