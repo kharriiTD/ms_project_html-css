@@ -30,10 +30,6 @@ Green Food Garden doesnt excist in real life this is just a idea for my Mileston
 - As a user I want to know if i can cancel the order.
 - As a user i want to know what i get in the vegetables basket.
 
- ## Wireframes
-
-
-
  ## Structure
  Three different pages with home, product and sign up.
  The structure should be easy to understand and navigate. 
@@ -137,7 +133,7 @@ Light House
 
 # 7. Troubleshooting
 
-First i had my menu to the side but men mentor didnt think that look good so i move it up to the header instead. I have alot of problem with the position for everything and i try to google it and find https://www.w3schools.com/ very helpfull. But it was first when I re
+First i had my menu to the side but men mentor didnt think that look good so i move it up to the header instead. I have alot of problem with the position for everything and i try to google it and find https://www.w3schools.com/ very helpfull. But it was first when Tutor Assistance help me with the form that I really understod it. 
 
 # 8. Debugging
 
@@ -190,6 +186,8 @@ I toke a few lines of text from
 https://www.organicbasketbarcelona.com/en
 
 Navbar and footer codes was taken from "Love Runing project"
+
+
 The rest of content was written by me. 
 
 # Media
@@ -202,9 +200,7 @@ https://www.google.com/imgres?imgurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2
 
 
 
-# 
-
-Acknowledgements
+# Acknowledgements
 
 The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute.
 
