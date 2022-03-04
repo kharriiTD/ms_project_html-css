@@ -1,8 +1,10 @@
 
 1. About
 2. Users Experience (UX)
-3. Features
-4. Technologies Used
+3. Design Choice
+4. Features
+5. Technologies Used
+6. Testing
 
 
  # 1. About
@@ -34,7 +36,7 @@ Green Food Garden doesnt excist in real life this is just a idea for my Mileston
  The structure should be easy to understand and navigate. 
  There are a navbar, hero image on the top of the header for each page and a footer with social media.
 
- # Design Choices
+ # 3. Design Choices
 
 - ## Typography
 I chose one that was most readable in my opinion. 
@@ -50,7 +52,7 @@ The color I use to this project.
 
 
 
-# Existing Features
+# 4. Existing Features
 
 ## Navigation Bar
 
@@ -90,9 +92,6 @@ The color I use to this project.
 
  - In this page the user can find opening hours, adress and also a map. 
 
-
-
-
 ![alt text](assets/css/images/Form-section.png)
 
 # Features Left to Implement
@@ -100,7 +99,7 @@ The color I use to this project.
  - Add a new page with delivery and order information. 
 
 
-# Technologies Used
+# 5. Technologies Used
 - HTML5 - provides the content and structure for the website.
 - CSS - provides the styling.
 - Balsamiq - used to create the wireframes.
@@ -114,7 +113,8 @@ The color I use to this project.
 - Chrome Devtools - used throughout the project to inspect on elements and writing codes.
 
 
-## Validator Testing
+# 6. Testing
+
 - css Validator testing 
 ![alt text](assets/css/images/css-val.png)
 
