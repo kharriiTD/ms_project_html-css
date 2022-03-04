@@ -27,8 +27,8 @@ Green Food Garden doesnt excist in real life this is just a idea for my Mileston
 - As a user I want to be able to navigate through the whole site smoothly. 
 - As a user I want to easily be able to contact.
 - As a user I want to know price.
-- As a use I want to know if i can cancel the order.
-- As a use i want to know what i get in the vegetables basket.
+- As a user I want to know if i can cancel the order.
+- As a user i want to know what i get in the vegetables basket.
 
  ## Wireframes
 
@@ -83,7 +83,7 @@ The color I use to this project.
 
 ## Product page 
   
-  - This section is valuable to the user as they can see each basket have to offer and price. 
+  - This section is valuable to the user as they can see what each basket have to offer and price. 
 
 - Gallery will allow users to see all the season vegetables.
 
@@ -118,12 +118,19 @@ The color I use to this project.
 
 # 6. Testing
 
-- css Validator testing 
+- CSS Validator 
 ![alt text](assets/css/images/css-val.png)
 
--html Validator testing
+
+
+-HTML Validator
+
+![alt text](assets/css/images/validator-form.png)
+
 
 Responsiv testing 
+
+Light House
 
 
 # 7. Troubleshooting
