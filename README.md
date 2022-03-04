@@ -115,7 +115,16 @@ The color I use to this project.
 
 
 ## Validator Testing
+- css Validator testing 
 ![alt text](assets/css/images/css-val.png)
+
+-html Validator testing
+
+Responsiv testing 
+
+
+
+
 
 
  # 8. Deployment 
