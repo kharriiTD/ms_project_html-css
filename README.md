@@ -20,7 +20,7 @@ Green Food Garden doesnt excist in real life this is just a idea for my Mileston
 
 [Repository for this project here](https://github.com/kharriiTD/ms_project_html-css)
 
-## 2.1 Users Experience (UX)
+# 2.1 Users Experience (UX)
 As a user I want to be able to navigate through the whole site smoothly. 
 As a user I want to easily be able to contact
 As a user I want to know price 
@@ -50,7 +50,7 @@ As a use i want to know what i get in the basket
 
 
 
-## Existing Features
+# Existing Features
 
 - Navigation Bar
 
@@ -74,7 +74,12 @@ As a use i want to know what i get in the basket
 
 ![alt text](assets/css/images/footer.png)
 
-
+# Technologies Used
+- HTML5 - provides the content and structure for the website.
+- CSS - provides the styling.
+- Balsamiq - used to create the wireframes.
+- Gitpod - used to deploy the website.
+- Github - used to host and edit the website.
 
 
 
@@ -95,3 +100,15 @@ https://www.google.com/imgres?imgurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2
 http://jigsaw.w3.org/css-validator/check/referer (HTML / XML documents only)
 
 https://www.organicbasketbarcelona.com/en
+
+ # 8. Deployment 
+
+## To deploy the project
+
+The site was deployed to GitHub pages. The steps to deploy a site are as follows:
+
+   - In the GitHub repository, navigate to the Settings tab
+   - From the source section drop-down menu, select the Master Branch
+   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+
