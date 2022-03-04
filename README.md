@@ -74,9 +74,20 @@ Green Food Garden doesnt excist in real life this is just a idea for my Mileston
 ![alt text](assets/css/images/footer.png)
 
 ## Product page 
-   - Section with information about the basket and what includes.
+  
+  - Will allow users to see all the season vegetables are. 
+This section is valuable to the user as they can see each basket have to offer and price. 
 
-   - Section two have a gallery content for season vegetables. 
+- Gallery will allow users to see all the season vegetables.
+
+![alt text](assets/css/images/product-section.png)
+
+## The Sign Up Page
+
+ - This page will allow the user to get signed upfor there weekly vegetables basket. The user will be able specify if they want smal, medium or big basket. The user will be asked to submit their full name and email address. They will be able to write what they want for season vegetables.
+
+ - In this page the users can find opening hours, adress and also a map. 
+
 
 ![alt text](assets/css/images/product-section.png)
 
@@ -86,6 +97,8 @@ Green Food Garden doesnt excist in real life this is just a idea for my Mileston
 - Balsamiq - used to create the wireframes.
 - Gitpod - used to deploy the website.
 - Github - used to host and edit the website.
+
+
 
 
 
