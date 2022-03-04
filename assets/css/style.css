@@ -287,6 +287,7 @@ input[type=submit]:hover {
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
     #logo {
         font-size: 300%;
@@ -302,11 +303,7 @@ input[type=submit]:hover {
         width: 100%;
         overflow: hidden;
 
-        #product {
-            width: 65%;
-            height: 1200px;
-            margin: 0 auto;
-        }
+
 
         #welcome {
             padding: 30px 0;
@@ -340,6 +337,7 @@ input[type=submit]:hover {
     }
 
     /* For medium screen sizes from 950px wide and down */
+
     @media screen and (max-width: 950px) {
         #logo {
             font-size: 200%;
@@ -353,43 +351,10 @@ input[type=submit]:hover {
             width: 100%;
             overflow: hidden;
 
-            #menu {
-                clear: left;
-                float: left;
-                margin-left: 30px;
-                margin-bottom: 20px;
-                line-height: 25px;
-            }
-
-            #cover-text {
-                left: 0;
-            }
-
-            #product {
-                width: 90%;
-                height: 1200px;
-                margin: 0 auto;
-            }
-
-            .left-about-heading,
-            .right-about-heading {
-                width: inherit;
-            }
-
-            .left-about-heading h2,
-            .right-about-heading h2 {
-                width: 100%;
-                text-align: center;
-            }
-
-            .left-about-heading p,
-            .right-about-heading p {
-                text-align: center;
-                padding: 0 20px;
-            }
         }
 
-        /* For medium screen sizes from 950px wide and down */
+        /* For medium screen sizes from 800 px wide and down */
+
         @media screen and (max-width: 800px) {
             #logo {
                 font-size: 250%;
@@ -402,39 +367,3 @@ input[type=submit]:hover {
                 background-size: 100%;
                 width: 100%;
                 overflow: hidden;
-
-                #menu {
-                    clear: left;
-                    float: left;
-                    margin-left: 30px;
-                    margin-bottom: 20px;
-                    line-height: 25px;
-                }
-
-                #cover-text {
-                    left: 0;
-                }
-
-                #product {
-                    width: 90%;
-                    height: 1200px;
-                    margin: 0 auto;
-                }
-
-                .left-about-heading,
-                .right-about-heading {
-                    width: inherit;
-                }
-
-                .left-about-heading h2,
-                .right-about-heading h2 {
-                    width: 100%;
-                    text-align: center;
-                }
-
-                .left-about-heading p,
-                .right-about-heading p {
-                    text-align: center;
-                    padding: 0 20px;
-                }
-            }
