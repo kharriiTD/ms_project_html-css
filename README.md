@@ -128,9 +128,11 @@ The color I use to this project.
 ![alt text](assets/css/images/validator-form.png)
 
 
-Responsiv testing 
-
 Light House
+
+![alt text](assets/css/images/lighthouse.png)
+
+
 
 
 # 7. Troubleshooting
@@ -160,7 +162,11 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
 
 # Credits
 I got help from Tutor Assistance with my contact form.
+
+
 I got alot of help from https://www.w3schools.com/
+
+
 To Andy Bui for helping me out with the map. 
 For my readme.dm https://www.youtube.com/watch?v=yXY3f9jw7fg
 How i can writ my readme fil from
@@ -175,14 +181,10 @@ How i can writ my readme fil from
 [Melinda ](https://github.com/MelindaZhang2020/CI-MS1-GirlOnEarth/blob/master/README.md)
 
 
-
-
-
-
-
 # Content 
 I toke a few lines of text from 
 https://www.organicbasketbarcelona.com/en
+
 Navbar and footer codes was taken from "Love Runing project"
 The rest of content was written by me. 
 
