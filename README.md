@@ -111,4 +111,8 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
    - From the source section drop-down menu, select the Master Branch
    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
+# Content 
+I toke a few part from the content from 
+https://www.organicbasketbarcelona.com/en
 
+The rest of content was written by me. 
